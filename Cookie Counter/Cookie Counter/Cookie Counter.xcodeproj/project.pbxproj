@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8F1C2E2731E08900437660 /* Cookie_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F1C2D2731E08900437660 /* Cookie_CounterApp.swift */; };
+		AF8F1C302731E08900437660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F1C2F2731E08900437660 /* ContentView.swift */; };
+		AF8F1C322731E08A00437660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8F1C312731E08A00437660 /* Assets.xcassets */; };
+		AF8F1C352731E08A00437660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8F1C342731E08A00437660 /* Preview Assets.xcassets */; };
+		AF8F1C3F2731E08A00437660 /* Cookie_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F1C3E2731E08A00437660 /* Cookie_CounterTests.swift */; };
+		AF8F1C492731E08A00437660 /* Cookie_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F1C482731E08A00437660 /* Cookie_CounterUITests.swift */; };
+		AF8F1C4B2731E08A00437660 /* Cookie_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F1C4A2731E08A00437660 /* Cookie_CounterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8F1C3B2731E08A00437660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8F1C222731E08900437660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8F1C292731E08900437660;
+			remoteInfo = "Cookie Counter";
+		};
+		AF8F1C452731E08A00437660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8F1C222731E08900437660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8F1C292731E08900437660;
+			remoteInfo = "Cookie Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF8F1C2A2731E08900437660 /* Cookie Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F1C2D2731E08900437660 /* Cookie_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CounterApp.swift; sourceTree = "<group>"; };
+		AF8F1C2F2731E08900437660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF8F1C312731E08A00437660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8F1C342731E08A00437660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF8F1C3A2731E08A00437660 /* Cookie CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F1C3E2731E08A00437660 /* Cookie_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CounterTests.swift; sourceTree = "<group>"; };
+		AF8F1C442731E08A00437660 /* Cookie CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F1C482731E08A00437660 /* Cookie_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CounterUITests.swift; sourceTree = "<group>"; };
+		AF8F1C4A2731E08A00437660 /* Cookie_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8F1C272731E08900437660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C372731E08A00437660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C412731E08A00437660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8F1C212731E08900437660 = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C2C2731E08900437660 /* Cookie Counter */,
+				AF8F1C3D2731E08A00437660 /* Cookie CounterTests */,
+				AF8F1C472731E08A00437660 /* Cookie CounterUITests */,
+				AF8F1C2B2731E08900437660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8F1C2B2731E08900437660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C2A2731E08900437660 /* Cookie Counter.app */,
+				AF8F1C3A2731E08A00437660 /* Cookie CounterTests.xctest */,
+				AF8F1C442731E08A00437660 /* Cookie CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8F1C2C2731E08900437660 /* Cookie Counter */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C2D2731E08900437660 /* Cookie_CounterApp.swift */,
+				AF8F1C2F2731E08900437660 /* ContentView.swift */,
+				AF8F1C312731E08A00437660 /* Assets.xcassets */,
+				AF8F1C332731E08A00437660 /* Preview Content */,
+			);
+			path = "Cookie Counter";
+			sourceTree = "<group>";
+		};
+		AF8F1C332731E08A00437660 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C342731E08A00437660 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF8F1C3D2731E08A00437660 /* Cookie CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C3E2731E08A00437660 /* Cookie_CounterTests.swift */,
+			);
+			path = "Cookie CounterTests";
+			sourceTree = "<group>";
+		};
+		AF8F1C472731E08A00437660 /* Cookie CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F1C482731E08A00437660 /* Cookie_CounterUITests.swift */,
+				AF8F1C4A2731E08A00437660 /* Cookie_CounterUITestsLaunchTests.swift */,
+			);
+			path = "Cookie CounterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8F1C292731E08900437660 /* Cookie Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F1C4E2731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie Counter" */;
+			buildPhases = (
+				AF8F1C262731E08900437660 /* Sources */,
+				AF8F1C272731E08900437660 /* Frameworks */,
+				AF8F1C282731E08900437660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cookie Counter";
+			productName = "Cookie Counter";
+			productReference = AF8F1C2A2731E08900437660 /* Cookie Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8F1C392731E08A00437660 /* Cookie CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F1C512731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie CounterTests" */;
+			buildPhases = (
+				AF8F1C362731E08A00437660 /* Sources */,
+				AF8F1C372731E08A00437660 /* Frameworks */,
+				AF8F1C382731E08A00437660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8F1C3C2731E08A00437660 /* PBXTargetDependency */,
+			);
+			name = "Cookie CounterTests";
+			productName = "Cookie CounterTests";
+			productReference = AF8F1C3A2731E08A00437660 /* Cookie CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8F1C432731E08A00437660 /* Cookie CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F1C542731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie CounterUITests" */;
+			buildPhases = (
+				AF8F1C402731E08A00437660 /* Sources */,
+				AF8F1C412731E08A00437660 /* Frameworks */,
+				AF8F1C422731E08A00437660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8F1C462731E08A00437660 /* PBXTargetDependency */,
+			);
+			name = "Cookie CounterUITests";
+			productName = "Cookie CounterUITests";
+			productReference = AF8F1C442731E08A00437660 /* Cookie CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8F1C222731E08900437660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AF8F1C292731E08900437660 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AF8F1C392731E08A00437660 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AF8F1C292731E08900437660;
+					};
+					AF8F1C432731E08A00437660 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AF8F1C292731E08900437660;
+					};
+				};
+			};
+			buildConfigurationList = AF8F1C252731E08900437660 /* Build configuration list for PBXProject "Cookie Counter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8F1C212731E08900437660;
+			productRefGroup = AF8F1C2B2731E08900437660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8F1C292731E08900437660 /* Cookie Counter */,
+				AF8F1C392731E08A00437660 /* Cookie CounterTests */,
+				AF8F1C432731E08A00437660 /* Cookie CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8F1C282731E08900437660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F1C352731E08A00437660 /* Preview Assets.xcassets in Resources */,
+				AF8F1C322731E08A00437660 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C382731E08A00437660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C422731E08A00437660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8F1C262731E08900437660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F1C302731E08900437660 /* ContentView.swift in Sources */,
+				AF8F1C2E2731E08900437660 /* Cookie_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C362731E08A00437660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F1C3F2731E08A00437660 /* Cookie_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F1C402731E08A00437660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F1C492731E08A00437660 /* Cookie_CounterUITests.swift in Sources */,
+				AF8F1C4B2731E08A00437660 /* Cookie_CounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF8F1C3C2731E08A00437660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8F1C292731E08900437660 /* Cookie Counter */;
+			targetProxy = AF8F1C3B2731E08A00437660 /* PBXContainerItemProxy */;
+		};
+		AF8F1C462731E08A00437660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8F1C292731E08900437660 /* Cookie Counter */;
+			targetProxy = AF8F1C452731E08A00437660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF8F1C4C2731E08A00437660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8F1C4D2731E08A00437660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8F1C4F2731E08A00437660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookie Counter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF8F1C502731E08A00437660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookie Counter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF8F1C522731E08A00437660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Counter.app/Cookie Counter";
+			};
+			name = Debug;
+		};
+		AF8F1C532731E08A00437660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Counter.app/Cookie Counter";
+			};
+			name = Release;
+		};
+		AF8F1C552731E08A00437660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cookie Counter";
+			};
+			name = Debug;
+		};
+		AF8F1C562731E08A00437660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HR53766AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesRailton.Cookie-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cookie Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8F1C252731E08900437660 /* Build configuration list for PBXProject "Cookie Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F1C4C2731E08A00437660 /* Debug */,
+				AF8F1C4D2731E08A00437660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F1C4E2731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F1C4F2731E08A00437660 /* Debug */,
+				AF8F1C502731E08A00437660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F1C512731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F1C522731E08A00437660 /* Debug */,
+				AF8F1C532731E08A00437660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F1C542731E08A00437660 /* Build configuration list for PBXNativeTarget "Cookie CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F1C552731E08A00437660 /* Debug */,
+				AF8F1C562731E08A00437660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8F1C222731E08900437660 /* Project object */;
+}
